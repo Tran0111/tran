@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: 'Montserrat';
+  margin: 0;
+  padding:0;
+}
+
+.container{
+  @apply mx-auto px-5;
+}
+*,::before,::after{
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e238f0;
+}
+.text-center{
+  text-align: center;
+}
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  width: 100%;
+}
+.justify-center{
+  justify-content: center;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.max-w-sm{
+  max-width: 24rem;
+}
+.team-item{
+  margin: .75rem;
+  text-align: center;
+  --bg-opacity:1;
+  box-shadow: 1px;
+  transition-duration: 300ms;
+}
+.realive{
+  position: relative;
+}
+.img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: middle;
+  border-style: none;
+}
+.team-overlay{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  --bg-opacity:1;
+  transition-duration: 300ms;
+  opacity: 0;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.mx-1{
+  margin-left: .25rem;
+  margin-right: .25rem;
+}
+li{
+  display: list-item;
+  text-align: -webkit--match--parent;
+}
+.social-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  --bg-opacity:1;
+  border-radius: .25rem;
+  font-size: 1.125rem;
+  transition-duration: 300ms;
+}
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+.lni{
+  display: inline-block;
+  font: normal;
+  text-transform: none;
+}
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.py-3{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+.team-name{
+  --text-opacity:1;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+form{
+  display: block;
+  margin-top: 0rem;
+}
+.w-full{
+  width: 100%;
+}
+.mx-3{margin-left: .75rem;
+margin-right: .75rem;}
+.form-input{
+  width: 100%;
+  margin-bottom: 1.25rem;
+  --bg-opacity:1;
+  border-width: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  transition-duration: 300ms;
+  outline: 0;
+}
+.rounded-full{
+  border-radius: 9999px;
+}
+input{
+  line-height: inherit;
+  color: inherit;
+  overflow: visible;
+}
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+.text-xl{
+  font-size: 1.25rem;
+}
+.font-bold{
+  font-weight: 700;
+}
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+.items-center{
+  align-items: center;
+}
+.contact-icon{
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pl-3{
+  padding-left: .75rem;
+}
